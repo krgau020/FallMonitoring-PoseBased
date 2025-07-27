@@ -22,10 +22,13 @@ The fall detection logic is based on relative positions of keypoints:
 
 The fall is detected if any of the following conditions are true:
 
-Shoulder Y > Ankle Y − shoulder_to_hip_length
-Hip Y > Ankle Y − (0.5 × shoulder_to_hip_length)
-Shoulder Y > Hip Y − (0.5 × shoulder_to_hip_length)
-Bounding box height < width (horizontal person shape)
+1. Shoulder Y > Ankle Y − shoulder_to_hip_length
+
+2. Hip Y > Ankle Y − (0.5 × shoulder_to_hip_length)
+
+3. Shoulder Y > Hip Y − (0.5 × shoulder_to_hip_length)
+
+4. Bounding box height < width (horizontal person shape)
 ---
 
 
