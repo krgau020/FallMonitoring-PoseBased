@@ -4,12 +4,6 @@ A real-time human fall detection system using the **YOLOv8 Pose Estimation model
 
 ---
 
-## 📹 Demo
-
-<video controls src="../fall_video_output_1.mp4" title="Title"></video>
-
----
-
 
 ## 🧠 Fall Detection Logic
 
